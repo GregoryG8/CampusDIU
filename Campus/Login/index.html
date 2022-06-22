@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Basicos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img class="imag" src="/Campus/imagenes/logo-universidad-del-valle.png" width="452" height="84" alt="Logo Univalle" title="Logo Univalle">
+
+            <div>
+                <select name="" id="idioma">
+                    <option value="">Español - internacional (es)</option>
+                    <option value="">English (en)</option>
+                    <option value="">Français (fr)</option>
+                    <option value="">Italiano (it)</option>
+                    <option value="">Português - Portugal (pt)</option>
+
+                </select>
+            </div>
+
+        </div>
+    </header>
+   
+    <div class="seccion-login">
+        
+
+        <form class="elemento formulario">
+            
+            <fieldset class="login">
+                <h2>Acceda al Campus Virtual</h2>
+                <input class="usuario" placeholder="Usuario">
+                <input type="password" placeholder="Contraseña">
+                <button class="boton-ingresar"><b><p id="texto-boton">Acceder</p></b></button><br>
+                <a class="como" href="https://campusvirtual.univalle.edu.co/moodle/info-dintev/preguntas-frecuentes.php#:~:text=El%20usuario%20para%20ingresar%20al,es%20el%20n%C3%BAmero%20de%20identificaci%C3%B3n." target="_blank">¿Como ingresar?</a>
+                <!--<button id="btn-abrir-popup" class="btn-abrir-popup">Abrir Ventana Emergente</button>-->
+                <br><a class="como" href="https://campusvirtual.univalle.edu.co/moodle/login/forgot_password.php" target="_blank">¿Olvidó su nombre de usuario o contraseña?</a>
+            </fieldset>
+        </form>
+        
+        
+       
+        
+    </div>
+
+    <div class="abiertos">
+        <div>
+            <img src="/Campus/imagenes/botones.jpeg"  alt="">
+        </div>
+        <div id="recu">
+            <h2>Recursos abiertos</h2>
+            <p id="texto-recuros">Disponible para la comunidad universitaria</p>
+        </div>
+    </div>
+
+    <div class="grid">
+        <!-- Aquí puedes escribir tu comentario 
+        <div id="galeria">
+            <img src="/Leccion02/imagenes/uni1.jpg" alt="galeria de imagenes">
+            <img src="/Leccion02/imagenes/uni2.jpg" alt="galeria de imagenes">
+            <img src="/Leccion02/imagenes/uni3.png" alt="galeria de imagenes">
+            <img src="/Leccion02/imagenes/uni4.jpg" alt="galeria de imagenes">
+            <img src="/Leccion02/imagenes/uni5.jpg" alt="galeria de imagenes">
+            <img src="/Leccion02/imagenes/uni6.jpg" alt="galeria de imagenes">
+            <img src="/Leccion02/imagenes/uni7.jpg" alt="galeria de imagenes">
+            <img src="/Leccion02/imagenes/uni8.jpg" alt="galeria de imagenes">
+            <img src="/Leccion02/imagenes/uni9.jpg" alt="galeria de imagenes">
+        </div>
+    
+        <div id="contenedor-principal">
+            <div id="contenedor-interno">
+                <img id="img-activa" src="/galeria/img/img1.jpg" alt="galeria de imagenes">
+                <button id="btn-cierra" type="button">x</button>
+                <button id="btn-retrocede" type="button">&lt;</button>
+                <button id="btn-adelanta" type="button">&gt;</button>
+            </div>
+        </div>-->
+        <div class="imagengrid">
+            <img src="/Campus/imagenes/grid.jpeg" alt="">
+        </div>
+        <div>
+            <img class="imgrecur" src="/Campus/imagenes/recurso1.jpeg" id="recurso1" alt="recurso1">
+            <img class="imgrecur" src="/Campus/imagenes/recurso2.jpeg" id="recurso2" alt=""><br>
+            <img class="imgrecur" src="/Campus/imagenes/recurso3.jpeg" id="recurso3" alt="">
+            <img class="imgrecur" src="/Campus/imagenes/recurso4.jpeg" id="recurso4" alt="">
+        </div>
+        
+    </div>
+
+    <div class="acreditaciones">
+        <img src="/Campus/imagenes/inicio_licencia_adobecloud.png" alt="Licencia Adobe Cloud" title="Licencia Adobe Cloud">
+        <img id="clarity" src="/Campus/imagenes/inicio_licencia_clarityenglish.png" alt="Licencia clarity English" title="Licencia clarity English">
+        <img src="/Campus/imagenes/inicio_licencia_ibmspss.png" alt="Licencia IBM SPSS" title="Licencia IBM SPSS">
+        <img src="/Campus/imagenes/inicio_licencia_office365.png" alt="Licencia Office 365" title="Licencia Office 365">
+        <img src="/Campus/imagenes/inicio_licencia_wolfram.png" alt="Licencia Wolfram" title="Licencia Wolfram">
+    </div>
+
+    <footer>
+        <div>
+            <h3>Vicerrectoría Académica</h3>
+            <h4>Dirección de Nuevas Tecnologías y Educación Virtual - DINTEV</h4>
+            <ul>
+                <li>
+                    <a href="http://dintev.univalle.edu.co" target="_blank">http://dintev.univalle.edu.co</a>
+                </li>
+                <li>
+                    +57 2 318 2649 / 2653
+                </li>
+                <li>
+                    <a href="mailto:campusvirtual@correounivalle.edu.co" target="_blank">campusvirtual@correounivalle.edu.co</a>
+                </li>
+                <li>
+                    Edificio E18 (317) Oficina 2004 / Campus Meléndez
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+     <!--
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <h3>SUSCRIBETE</h3>
+            <h4>y recibe un cupon de descuento.</h4>
+            <form action="">
+                <div class="contenedor-inputs">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Correo">
+                </div>
+                <input type="submit" class="btn-submit" value="Suscribirse">
+            </form>
+        </div>
+    </div>
+    -->
+    <script src="/Leccion02/app.js"></script>
+    <script src="/Leccion02/pop.js"></script>
+</body>
+</html>
