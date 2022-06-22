@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+  }
+  body{
+    background: #FFFFFF;
+  }
+  header {
+    background: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    border: 2px solid rgba(209, 18, 18, 0.58);
+  }
+  nav ul li a {
+    display: flex; 
+    padding: 12px;
+    color: #fff;
+    text-decoration: none; 
+  }
+
+.arriba{
+    position: absolute;
+    width: 452px;
+    height: 84px;
+    left: 11px;
+    top: 10px;
+}
+.fondo{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 2px solid rgba(209, 18, 18, 0.58);
+    position: absolute;
+    width: 1524px;
+    height: 121px;
+    left: -12px;
+    top: -13px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.mensaje{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1171px;
+    top: 33px;
+}
+.campana{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1263px;
+    top: 32px;
+}
+.avatar{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1364px;
+    top: 22px;
+    border-radius: 50px;
+}
+.lateral{
+    position: absolute;
+    width: 113px;
+    height: 879px;
+    left: 0px;
+    top: 96px;
+    background: #D6D0D0;
+}
+.casa{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 32px;
+    top: 49px;   
+}
+.yo{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 32px;
+    top: 141px;   
+}
+.carpeta{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 32px;
+    top: 235px;
+}
+.calendario{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 32px;
+    top: 338px;    
+}
+.pregunta{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 34px;
+    top: 552px;
+}
+.avatar2{
+    position: absolute;
+    width: 81px;
+    height: 80px;
+    left: 15px;
+    top: 4px;
+    border-radius: 50px;  
+}
+.fondop{
+    position: absolute;
+    width: 928px;
+    height: 89px;
+    left: 190px;
+    top: 106px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    transform: rotate(0.38deg);
+    border: 2px solid rgba(209, 18, 18, 0.58); 
+}
+#nombre{
+    position: absolute;
+    width: auto;
+    height: 44px;
+    left: 121px;
+    top: 28px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 36px;
+}
+.fondo2{
+    position: absolute;
+    width: 928px;
+    height: 748px;
+    left: 187px;
+    top: 298px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    transform: rotate(0.38deg);
+    border: 2px solid rgba(209, 18, 18, 0.58) ;
+}
+.fondo3{
+    position: absolute;
+    width: 337px;
+    height: 903px;
+    left: 1182px;
+    top: 96px;
+    border: 2px solid rgba(209, 18, 18, 0.58);
+    background: #FFFFFF;
+}
+#vistag{
+    position: absolute;
+    width: auto;
+    height: 36px;
+    left: 200px;
+    top: 224px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+
+
+    color: #000000;
+}
+.fondoR{
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    left: 247px;
+    top: 36px;  
+    background: rgba(209, 18, 18, 0.58);
+}
+#letraS{
+    
+    position: absolute;
+    left: 18px;
+    top: 1px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+#letraa{
+    position: absolute;
+    left: 480px;
+    top: 38px;  
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#fondoM1{
+    position: absolute;
+    width: 262px;
+    height: 136px;
+    left: 93px;
+    top: 154px;
+}
+
+#fondoG1{
+    position: absolute;
+    width: 262px;
+    height: 131px;
+    left: 93px;
+    top: 290px;
+    background: #D9D9D9;
+
+    
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+#fondoM2{
+    position: absolute;
+    width: 262px;
+    height: 136px;
+    left: 535px;
+    top: 154px;
+}
+
+#fondoG2{
+    position: absolute;
+    width: 262px;
+    height: 131px;
+    left: 535px;
+    top: 290px;
+    background: #D9D9D9;
+
+    
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+#fondoM3{
+    position: absolute;
+    width: 262px;
+    height: 136px;
+    left: 94px;
+    top: 446px;
+}
+
+#fondoG3{
+    position: absolute;
+    width: 263px;
+    height: 131px;
+    left: 94px;
+    top: 583px;
+;
+    background: #D9D9D9;
+
+    
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+#fondoM4{
+    position: absolute;
+    width: 262px;
+    height: 136px;
+    left: 535px;
+    top: 446px;
+}
+
+#fondoG4{
+    position: absolute;
+    width: 263px;
+    height: 131px;
+    left: 535px;
+    top: 583px;
+    background: #D9D9D9;
+
+    
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+.reloj{
+    position: absolute;
+    width: 298px;
+    height: 140px;
+    left: 1210px;
+    top: 102px;
+    
+    background: #F4F0F0;
+}
