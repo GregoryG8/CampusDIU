@@ -1,0 +1,138 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: auto;
+    height: 84px;
+}
+
+.cabeza{
+    height: fit-content;
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgb( 0, 0, 0, .5);
+}
+
+.derechaCabecera{
+
+    width: fit-content;
+    padding: 0;
+    margin-top: 30px;
+    margin-right: 90px;
+
+
+}
+
+.mensaje{
+    margin-right: 60px;
+}
+
+.campana{
+    margin-right: 60px;
+}
+
+.avatar{
+
+    border-radius: 30px; 
+}
+
+.casa{
+
+    width: 30px;
+    height: 30px;
+}
+
+.yo{
+  
+    width: 30px;
+    height: 30px;
+}
+
+.carpeta{
+  
+    width: 30px;
+    height: 30px;
+}
+
+.pregunta{
+  
+    width: 30px;
+    height: 30px;
+}
+
+.menú{
+
+    width: 1rem;
+    height: fit-content;
+    position: absolute;
+    left: 1%;
+    text-align: center;
+    transition: left 0.7%;
+    top: 50%;
+    background-color: #d6d0d0;
+    padding: 0px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.checbox:checked ~ .menú{
+
+    left: 8%;
+    border-radius: 0 0.5rem 0.5rem 0;
+
+}
+
+.panel_Izquierdo{
+
+    width: 8%;
+    height: 100%;
+    background-color: #d6d0d0;
+    position: fixed;
+    top: 85px;
+    left: -8%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: space-between;
+    transition: left 0.4%;
+
+
+}
+
+.checbox:checked ~ .panel_Izquierdo{
+
+    left: 0;
+
+}
+
+.checbox{
+
+    display: none;
+}
+
+ul a {
+
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+li{
+
+    list-style: none;
+    text-align: center;
+    padding: 0 0.5rem 0;
+    margin: 1rem 0;
+}
