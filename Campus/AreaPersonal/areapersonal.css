@@ -180,6 +180,7 @@
     background: #FFFFFF;
     overflow-y: scroll;
     z-index: 999;
+
 }
 #vistag{
     position: absolute;
@@ -612,5 +613,14 @@ li{
     top: 50%;
     width: 30px;
     height: 30px;
+}
+
+.flechaa{
+    position: fixed;
+    top: 47%;
+    left: 968px;
+    width: 55px;
+    height: 55px;
+    
 }
 
