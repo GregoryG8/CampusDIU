@@ -77,7 +77,10 @@ header{
   
     width: 30px;
     height: 30px;
-}
+    position: absolute;
+    top: 441px;
+    left: 44px;
+}   
 
 .calendario{
 
@@ -90,8 +93,8 @@ header{
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 441px;
-    left: 32px;
+    top: 229px;
+    left: 44px;
 }
 
 
