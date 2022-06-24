@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elementos Basicos</title>
+    <title>Campus Virtual</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -37,11 +37,52 @@
     </header>
    
     <div class="seccion-login">
-        <div>
-            <input type="radio" id="1" name="image-slide">
-            <input type="radio" id="2" name="">
-            <input type="radio" id="3">
-            <input type="radio" id="4">
+        <div class="contiene-todo">
+            <input type="radio" class="sl" id="1" name="image-slide" hidden>
+            <input type="radio" class="sl" id="2" name="image-slide" hidden>
+            <input type="radio" class="sl" id="3" name="image-slide" hidden>
+            <input type="radio" class="sl" id="4" name="image-slide" hidden>
+
+            <div class="slide">
+
+                <div class="item-slide">
+                    <img src="/Campus/imagenes/BannerPAT-CarruselCV.png" alt="">
+                </div>
+                    <img src="" alt="">
+                <div class="item-slide">
+                    <img src="" alt="">
+                </div>
+                <div class="item-slide">
+                    <img src="" alt="">
+                </div>
+                <div class="item-slide">
+                    <img src="" alt="">
+                </div>
+
+
+                <div class="paginacion">
+
+                    <label for="1" class="paginacion-item">
+                        
+                    </label>
+
+                    <label for="2" class="paginacion-item">
+                        
+                    </label>
+
+                    <label for="3" class="paginacion-item">
+                        
+                    </label>
+                        
+                    <label for="4" class="paginacion-item">
+                        
+                    </label>
+
+                </div>
+
+            </div>
+
+
         </div>
 
         <form class="elemento">
@@ -49,7 +90,7 @@
             <fieldset class="login">
                 <h2>Acceda al Campus Virtual</h2>
                 <input class="usuario" placeholder="Usuario">
-                <input type="password" placeholder="Contraseña">
+                <input type="password" class="contraseña" placeholder="Contraseña">
                 <button class="boton-ingresar"><a class="acceder" href="/Campus/AreaPersonal/materias.html">Acceder</a></button>
                 <br>
                 <a class="como" href="https://campusvirtual.univalle.edu.co/moodle/info-dintev/preguntas-frecuentes.php#:~:text=El%20usuario%20para%20ingresar%20al,es%20el%20n%C3%BAmero%20de%20identificaci%C3%B3n." target="_blank">¿Como ingresar?</a>
