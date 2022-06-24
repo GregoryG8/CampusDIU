@@ -10,30 +10,33 @@
 <body>
     <div class="contenedor">
         <header>
-            <section class="wrapper">
-                <nav>
-                    <ul>
-                        <li><a><img class="arriba" src="../imagenes/logoU.jpg" ></a></li>
-                        <li><a><img class="mensaje" src="../imagenes/mensaje.png"></a></li>
-                        <li><a><img class="campana" src="../imagenes/campana.png"></a></li>
-                        <li><a><img class="avatar" src="../imagenes/avatar.jpg"></li>
-                    </ul>
-                </nav>
-            </section>
+            <div class="cabeza">
+                <img src="/Campus/imagenes/logo-universidad-del-valle.png" alt="" width="452" height="84">
+    
+                <div class="derechaCabecera"> 
+                    <img class="mensaje" src="/Campus/imagenes/mensaje.png" alt="" width="35" height="35">
+                    <img class="campana" src="/Campus/imagenes/campana.png" alt="" width="35" height="35">
+                    <img class="avatar" src="/Campus/imagenes/avatar.jpg" alt="" width="35" height="35">
+                    
+                </div>
+            </div>
+    
         </header>
-        <header>
-            <section class="lateral">
-                <nav>
-                    <ul>
-                        <a><img class="casa" src="../imagenes/casa.png"></a>
-                        <a><img class="yo" src="../imagenes/yo.png"></a>
-                        <a><img class="carpeta" src="../imagenes/carpetas.png"></a>
-                        <a><img class="calendario" src="../imagenes/calendario.png"></a>
-                        <a><img class="pregunta" src="../imagenes/pregunta.png"></a>
-                    </ul>
-                </nav>
-            </section>
-        </header>
+    
+        <input type="checkbox" class="checbox" id="chec">
+        <label for="chec" class="menú" title="Menú"><img class="flecha" src="/Campus/imagenes/flecha.png"> </label> 
+        <div class="panel_Izquierdo">
+            <ul>
+                <li><a><img class="casa" src="/Campus/imagenes/casa.png" alt=""></a></li>
+                <li><a><img class="yo" src="/Campus/imagenes/yo.png"> </a> </li>
+                <li> <a><img class="carpeta" src="/Campus/imagenes/carpetas.png" alt=""></a></li>
+                <li> <a><img class="pregunta" src="/Campus/imagenes/pregunta.png" alt=""></a></li>
+                <li> <a><img class="calendario" src="/Campus/imagenes/calendario.png" alt=""></a></li>
+    
+            </ul>
+    
+        </div>  
+        
         <div class="fondop"><img class="avatar2" src="../imagenes/avatar.jpg"><a id="nombre">Sebastian Martinez Manzano</a></div>
         <div class="fondo2">
         <button class="fondoR">
@@ -41,10 +44,10 @@
         </button>
         <a id="letraa">Semestre anteriores</a>
 
-        <img id="fondoM1" src="../imagenes/fondoCurso.jpg"><i id="fondoG1">06-730125M<p id="letaMateria">IMPACTO AMBIENTAL DE LA TECNOLOGÍA</p></i>
-        <img id="fondoM2" src="../imagenes/fondoCurso.jpg"><i id="fondoG2">06-760081M<p id="letaMateria">TEORÍA GENERAL DE SISTEMAS</p></i>
-        <img id="fondoM3" src="../imagenes/fondoCurso.jpg"><i id="fondoG3">06-750093M<p id="letaMateria">DISEÑO DE INTERFACES DE USUARIO</p></i>
-        <img id="fondoM4" src="../imagenes/fondoCurso.jpg"><i id="fondoG4">06-750092M<p id="letaMateria">DESARROLLO DE SOFTWARE II</p></i>
+        <img id="fondoM1" src="../imagenes/fondoCurso.jpg"><div id="fondoG1"><p id="letaMateria">06-730125M <br> IMPACTO AMBIENTAL DE LA TECNOLOGÍA</p></div>
+        <img id="fondoM2" src="../imagenes/fondoCurso.jpg"><div id="fondoG2"><p id="letaMateria">06-760081M<br>TEORÍA GENERAL DE SISTEMAS</p></div>
+        <img id="fondoM3" src="../imagenes/fondoCurso.jpg"><div id="fondoG3"><p id="letaMateria">06-750093M<br>DISEÑO DE INTERFACES DE USUARIO</p></div>
+        <img id="fondoM4" src="../imagenes/fondoCurso.jpg"><div id="fondoG4"><p id="letaMateria">06-750092M<br>DESARROLLO DE SOFTWARE II</p></div>
         </div>
         <a id="vistag">Vista general de cursos</a>
         

@@ -63,8 +63,8 @@
 }
 .avatar{
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     left: 1364px;
     top: 22px;
     border-radius: 50px;
@@ -220,8 +220,9 @@
 }
 
 #fondoG1{
+    padding: 10px;
     position: absolute;
-    width: 262px;
+    width: 242px;
     height: 131px;
     left: 93px;
     top: 290px;
@@ -248,8 +249,9 @@
 }
 
 #fondoG2{
+    padding: 10px;
     position: absolute;
-    width: 262px;
+    width: 242px;
     height: 131px;
     left: 535px;
     top: 290px;
@@ -276,8 +278,9 @@
 }
 
 #fondoG3{
+    padding: 10px;
     position: absolute;
-    width: 263px;
+    width: 242px;
     height: 131px;
     left: 94px;
     top: 583px;
@@ -304,8 +307,9 @@
 }
 
 #fondoG4{
+    padding: 10px;
     position: absolute;
-    width: 263px;
+    width: 242px;
     height: 131px;
     left: 535px;
     top: 583px;
@@ -384,6 +388,7 @@
     border-radius: 10px;
 }
 #letaMateria{
+    position: absolute;
     font-family: "Poppins",sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -512,4 +517,77 @@
     height: 40px;
     left: 17px;
     top: 217px;
+}
+
+
+.menú{
+
+    width: 1rem;
+    height: fit-content;
+    position: fixed;
+    left: 1%;
+    text-align: center;
+    transition: left 0.7%;
+    top: 50%;
+    background-color: #d6d0d0;
+    padding: 0px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.checbox:checked ~ .menú{
+
+    left: 8%;
+    border-radius: 0 0.5rem 0.5rem 0;
+
+}
+
+.panel_Izquierdo{
+
+    width: 8%;
+    height: 100%;
+    background-color: #d6d0d0;
+    position: fixed;
+    top: 85px;
+    left: -8%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: space-between;
+    transition: left 0.4%;
+
+
+}
+
+.checbox:checked ~ .panel_Izquierdo{
+
+    left: 0;
+
+}
+
+.checbox{
+
+    display: none;
+}
+
+ul a {
+
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+li{
+
+    list-style: none;
+    text-align: center;
+    padding: 0 0.5rem 0;
+    margin: 1rem 0;
+}
+
+.flecha{
+    position: absolute;
+    width: 30px;
+    height: 30px;
 }
