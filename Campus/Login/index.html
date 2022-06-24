@@ -9,6 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+        function redirect()
+        {
+            window.location.href="/Campus/AreaPersonal/materias.html";
+        }
+    </script>
 </head>
 <body>
     
@@ -31,15 +37,21 @@
     </header>
    
     <div class="seccion-login">
-        
+        <div>
+            <input type="radio" id="1" name="image-slide">
+            <input type="radio" id="2" name="">
+            <input type="radio" id="3">
+            <input type="radio" id="4">
+        </div>
 
-        <form class="elemento formulario">
+        <form class="elemento">
             
             <fieldset class="login">
                 <h2>Acceda al Campus Virtual</h2>
                 <input class="usuario" placeholder="Usuario">
                 <input type="password" placeholder="Contraseña">
-                <button class="boton-ingresar"><b><p id="texto-boton">Acceder</p></b></button><br>
+                <button class="boton-ingresar"><a class="acceder" href="/Campus/AreaPersonal/materias.html">Acceder</a></button>
+                <br>
                 <a class="como" href="https://campusvirtual.univalle.edu.co/moodle/info-dintev/preguntas-frecuentes.php#:~:text=El%20usuario%20para%20ingresar%20al,es%20el%20n%C3%BAmero%20de%20identificaci%C3%B3n." target="_blank">¿Como ingresar?</a>
                 <!--<button id="btn-abrir-popup" class="btn-abrir-popup">Abrir Ventana Emergente</button>-->
                 <br><a class="como" href="https://campusvirtual.univalle.edu.co/moodle/login/forgot_password.php" target="_blank">¿Olvidó su nombre de usuario o contraseña?</a>
@@ -61,7 +73,7 @@
         </div>
     </div>
 
-    <div class="grid">
+    <!--<div class="grid">-->
         <!-- Aquí puedes escribir tu comentario 
         <div id="galeria">
             <img src="/Leccion02/imagenes/uni1.jpg" alt="galeria de imagenes">
@@ -140,7 +152,5 @@
         </div>
     </div>
     -->
-    <script src="/Leccion02/app.js"></script>
-    <script src="/Leccion02/pop.js"></script>
 </body>
 </html>

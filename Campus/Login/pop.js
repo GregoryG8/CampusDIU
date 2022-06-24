@@ -13,3 +13,10 @@ btnCerrarPopup.addEventListener('click', function(e){
 	overlay.classList.remove('active');
 	popup.classList.remove('active');
 });
+
+
+function redirect()
+    {
+   
+    window.location.href="https://programminghead.com/submit-button-redirect-to-another-page-in-html/";
+    }

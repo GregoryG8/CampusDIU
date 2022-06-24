@@ -1,5 +1,6 @@
 
 
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -51,7 +52,6 @@ header{
     justify-content: right;
     align-items: center;
     background-color: #FBF4F4;
-    background-image: url(/Campus/imagenes/fon.jpg);
     background-size: 100% 330px;
     margin-bottom: 4%;
 }
@@ -113,7 +113,7 @@ h2{
     border-radius: 6px;
     border: none;
     cursor: pointer;
-    box-shadow: 2px 2px 5px #999;   
+    box-shadow: 2px 2px 5px #999;  
 }
 
 .boton-ingresar:hover{
@@ -121,18 +121,19 @@ h2{
     
 }
 
+
+.acceder{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 .como{
     text-decoration: none;
     color: #cd1f32;
     font-size: 1rem;
 }
-
-#texto-boton{
-    color: white;
-    font-size: 20px;
-    margin: 0;
-}
-
 
 
 .imgrecur{
