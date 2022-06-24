@@ -156,8 +156,8 @@
     position: fixed;
     width: 337px;
     height: calc(100% - 50px);
-    left: 1180px;
-    top: 92px;
+    left: 1010px;
+    top: 88px;
     border-left: 2px solid rgba(0, 0, 0, 0.5);
     background: #FFFFFF;
     overflow-y: scroll;
@@ -592,4 +592,17 @@ li{
     position: absolute;
     width: 30px;
     height: 30px;
+}
+
+.derechaCabecera{
+
+    width: fit-content;
+    padding: 0;
+    margin-top: 30px;
+    margin-right: 90px;
+    position: absolute;
+    top: -2px;
+    left: 1042px;
+
+
 }
