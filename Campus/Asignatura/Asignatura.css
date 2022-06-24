@@ -31,6 +31,9 @@ header{
     padding: 0;
     margin-top: 30px;
     margin-right: 90px;
+    position: absolute;
+    top: -2px;
+    left: 1042px;
 
 
 }
@@ -66,17 +69,34 @@ header{
     height: 30px;
 }
 
+
 .pregunta{
   
     width: 30px;
     height: 30px;
 }
 
+.calendario{
+
+    width: 30px;
+    height: 30px; 
+}
+
+.carpetaok{
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 441px;
+    left: 32px;
+}
+
+
 .menú{
 
     width: 1rem;
     height: fit-content;
-    position: absolute;
+    position: fixed;
     left: 1%;
     text-align: center;
     transition: left 0.7%;
@@ -85,6 +105,7 @@ header{
     padding: 0px;
     font-size: 25px;
     cursor: pointer;
+
 }
 
 .checbox:checked ~ .menú{
@@ -136,3 +157,107 @@ li{
     padding: 0 0.5rem 0;
     margin: 1rem 0;
 }
+
+
+
+
+.actividades{
+    position: absolute;
+    width: 325px;
+    height: 372px;
+    left: 5px;
+    top: 204px;
+    background: #F4F0F0;
+}
+#actividade{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 10px;
+    top: 10px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+
+
+.reloj{
+    position: absolute;
+    width: 325px;
+    height: 140px;
+    left: 5px;
+    top: 28px;
+    background: #F4F0F0;
+}
+
+#relojl{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 10px;
+    top: -21px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+#servi{
+    position: absolute;
+    width: 226px;
+    height: 32px;
+    left: 79px;
+    top: 43px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+#logoservi{
+    position: absolute;
+    left: 47px;
+    top: -21px;
+}
+
+#usted{
+    position: absolute;
+    width: 226px;
+    height: 32px;
+    left: 79px;
+    top: 77px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+#logousted{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 47px;
+    top: 88px;
+    border-radius: 10px;
+}
+
+.fondo3{
+    position: absolute;
+    width: 337px;
+    height: 954px;
+    left: 1182px;
+    top: 98px;
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+    background: #FFFFFF;
+}
+
+
+
+
+
