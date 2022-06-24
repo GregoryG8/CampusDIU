@@ -587,7 +587,87 @@ li{
 
     color: #000000;
 }
+.grupo{
 
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid black;
+    height: 95px;
+}
+
+.personas{
+
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 36px;
+    left: 25px;
+}
+
+.Avisos{
+
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50px;
+    left: 125px;
+}
+.lista_fe{
+
+    font-size: 40px;
+    position: absolute;
+    width: 1000px;
+
+}
+
+.uno{
+
+    position: absolute;
+    top: -9px;
+    left: 30px;
+}
+
+.dos{
+   
+    position: absolute;
+    top: 59px;
+    left: 30px;
+}
+
+.tres{
+  
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+.cuat{
+
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+
+.cinc{
+
+    position: absolute;
+    top: 315px;
+    left: 30px;
+}
+
+.seis{
+
+    position: absolute;
+    top: 405px;
+    left: 30px;
+    
+}
+
+.siete{
+
+    position: absolute;
+    top: 486px;
+    left: 30px;
+}
 
 
 
