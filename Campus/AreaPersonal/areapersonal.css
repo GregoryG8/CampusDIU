@@ -47,28 +47,46 @@
     background: #FFFFFF;
     border-radius: 16px;
 }
+
+.cabeza{
+    height: fit-content;
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgb( 0, 0, 0, .5);
+}
+
+.derechaCabecera{
+
+    width: fit-content;
+    padding: 0;
+    margin-top: 30px;
+    margin-right: 90px;
+    position: absolute;
+    top: -2px;
+    left: 1042px;
+
+
+}
+
 .mensaje{
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    left: 1171px;
-    top: 33px;
+    margin-right: 60px;
 }
+
 .campana{
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    left: 1263px;
-    top: 32px;
+    margin-right: 60px;
 }
+
 .avatar{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 1364px;
-    top: 22px;
-    border-radius: 50px;
+
+    border-radius: 30px; 
 }
+
+
 .lateral{
     position: absolute;
     width: 110px;
@@ -589,20 +607,9 @@ li{
 }
 
 .flecha{
-    position: absolute;
+    position: fixed;
+    top: 50%;
     width: 30px;
     height: 30px;
 }
 
-.derechaCabecera{
-
-    width: fit-content;
-    padding: 0;
-    margin-top: 30px;
-    margin-right: 90px;
-    position: absolute;
-    top: -39px;
-    left: -164px;
-
-
-}
