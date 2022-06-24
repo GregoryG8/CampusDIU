@@ -1,5 +1,8 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0;
+    margin: 0;
 }
 
 body{
@@ -158,29 +161,17 @@ li{
     margin: 1rem 0;
 }
 
-
-.actividades{
-    position: absolute;
-    width: 325px;
-    height: 372px;
-    left: 5px;
-    top: 204px;
-    background: #F4F0F0;
+.fondo3{
+    position: fixed;
+    width: 337px;
+    height: calc(100% - 50px);
+    left: 1010px;
+    top: 88px;
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+    background: #FFFFFF;
+    overflow-y: scroll;
+    z-index: 999;
 }
-#actividade{
-    position: absolute;
-    width: 105px;
-    height: 32px;
-    left: 10px;
-    top: 10px;
-    font-family: "Poppins",sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 36px;
-    color: #000000;
-}
-
 
 .reloj{
     position: absolute;
@@ -196,7 +187,7 @@ li{
     width: 105px;
     height: 32px;
     left: 10px;
-    top: -21px;
+    top: 10px;
     font-family: "Poppins",sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -220,7 +211,7 @@ li{
 #logoservi{
     position: absolute;
     left: 47px;
-    top: -21px;
+    top: 54px;
 }
 
 #usted{
@@ -244,15 +235,135 @@ li{
     top: 88px;
     border-radius: 10px;
 }
-
-.fondo3{
+#letaMateria{
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
+.Cronograma{
     position: absolute;
-    width: 337px;
-    height: 954px;
-    left: 1182px;
-    top: 98px;
-    border-left: 2px solid rgba(0, 0, 0, 0.5);
-    background: #FFFFFF;
+    width: 325px;
+    height: 372px;
+    left: 5px;
+    top: 204px;
+    background: #F4F0F0;
+}
+#Cronogramal{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 10px;
+    top: 10px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+#primero{
+    position: absolute;
+    width: 252px;
+    height: 32px;
+    left: 68px;
+    top: 53px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+#logop{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 17px;
+    top: 116px;
+}
+#segundo{
+    position: absolute;
+    width: 239px;
+    height: 32px;
+    left: 68px;
+    top: 207px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+#logos{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 17px;
+    top: 293px;
+}
+.evento{
+    position: absolute;
+    width: 325px;
+    height: 320px;
+    left: 5px;
+    top: 618px;
+    background: #F4F0F0;
+}
+#eventol{
+    position: absolute;
+    width: 216px;
+    height: 32px;
+    left: 10px;
+    top: 10px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+#primeroe{
+    position: absolute;
+    width: 252px;
+    height: 32px;
+    left: 68px;
+    top: 68px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+#logope{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 17px;
+    top: 92px;
+}
+#segundoe{
+    position: absolute;
+    width: 239px;
+    height: 32px;
+    left: 68px;
+    top: 183px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+#logose{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 17px;
+    top: 217px;
 }
 
 
